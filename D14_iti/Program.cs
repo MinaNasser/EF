@@ -15,8 +15,8 @@ namespace D14_iti
             db.Categories.Add(new() {Name= "SciFiction"});
             db.Categories.Add(new() {Name= "Historical"});
 
-            Console.WriteLine($"Local Categories {db.Categories.Local.Count} ");
-            Console.WriteLine($"DB Berfor  Categories {db.Categories.Count()} ");
+            //Console.WriteLine($"Local Categories {db.Categories.Local.Count} ");
+            //Console.WriteLine($"DB Berfor  Categories {db.Categories.Count()} ");
 
 
             Book book = new()
@@ -34,7 +34,7 @@ namespace D14_iti
             //Commit changes
             int r = db.SaveChanges();
 
-            Console.WriteLine($"DB After  Categories {db.Categories.Count()} ");
+            //Console.WriteLine($"DB After  Categories {db.Categories.Count()} ");
 
 
            Console.WriteLine($"Number Of Row Effectied {r}");
