@@ -1,0 +1,109 @@
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\NorthwindWinFormsAPP.exe
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\NorthwindWinFormsAPP.deps.json
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\NorthwindWinFormsAPP.runtimeconfig.json
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\NorthwindWinFormsAPP.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\NorthwindWinFormsAPP.pdb
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.csproj.GenerateResource.cache
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.AssemblyInfoInputs.cache
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.AssemblyInfo.cs
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.csproj.CoreCompileInputs.cache
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\refint\NorthwindWinFormsAPP.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.pdb
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.genruntimeconfig.cache
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\ref\NorthwindWinFormsAPP.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.csproj.AssemblyReference.cache
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.frmProductsGridView.resources
+C:\Users\iti\Desktop\SD44\D14 - EF Console APP\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.csproj.CopyComplete
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\NorthwindWinFormsAPP.exe
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\NorthwindWinFormsAPP.deps.json
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\NorthwindWinFormsAPP.runtimeconfig.json
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\NorthwindWinFormsAPP.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\NorthwindWinFormsAPP.pdb
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.csproj.AssemblyReference.cache
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.frmProductsGridView.resources
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.csproj.GenerateResource.cache
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.AssemblyInfoInputs.cache
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.AssemblyInfo.cs
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.csproj.CoreCompileInputs.cache
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.sourcelink.json
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\Northwin.E2D36069.Up2Date
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\refint\NorthwindWinFormsAPP.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.pdb
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\NorthwindWinFormsAPP.genruntimeconfig.cache
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\obj\Debug\net8.0-windows\ref\NorthwindWinFormsAPP.dll
