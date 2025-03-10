@@ -14,9 +14,12 @@ namespace D14_iti
             //db.Database.EnsureCreated();
             #region Insert
 
+<<<<<<< HEAD
             //db.Categories.Add(new() {Name= "SciFiction"});
             //db.Categories.Add(new() {Name= "Historical"});
 
+=======
+>>>>>>> 6b3652979456fbec0e263938ff97830d1509fec9
             //Console.WriteLine($"Local Categories {db.Categories.Local.Count} ");
             //Console.WriteLine($"DB Berfor  Categories {db.Categories.Count()} ");
 
