@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("NorthwindWinFormsAPP")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Day2Hany")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ba9f40c8e25b2cd763371e2e92aba019cda2c59")]
-[assembly: System.Reflection.AssemblyProductAttribute("NorthwindWinFormsAPP")]
-[assembly: System.Reflection.AssemblyTitleAttribute("NorthwindWinFormsAPP")]
+[assembly: System.Reflection.AssemblyProductAttribute("Day2Hany")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Day2Hany")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

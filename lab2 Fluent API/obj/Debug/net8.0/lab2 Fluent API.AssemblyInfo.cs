@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab2 Fluent API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b3652979456fbec0e263938ff97830d1509fec9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ba9f40c8e25b2cd763371e2e92aba019cda2c59")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab2 Fluent API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab2 Fluent API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
