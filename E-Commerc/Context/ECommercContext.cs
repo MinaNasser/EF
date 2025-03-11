@@ -1,6 +1,7 @@
 ﻿
 
 using E_Commerc.Entites;
+using E_Commerc.Migrations;
 using Microsoft.EntityFrameworkCore;
 
 namespace E_Commerc.Context

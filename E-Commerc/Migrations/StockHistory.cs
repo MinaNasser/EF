@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using E_Commerc.Entites;
 
-namespace E_Commerc.Entites
+namespace E_Commerc.Migrations
 {
     public class StockHistory
     {

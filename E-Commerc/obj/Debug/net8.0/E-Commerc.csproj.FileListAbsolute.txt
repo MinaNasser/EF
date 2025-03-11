@@ -150,3 +150,4 @@ D:\work\1-material\18- EF\Entity Farmwork project\Proj1\E-Commerc\obj\Debug\net8
 D:\work\1-material\18- EF\Entity Farmwork project\Proj1\E-Commerc\obj\Debug\net8.0\E-Commerc.pdb
 D:\work\1-material\18- EF\Entity Farmwork project\Proj1\E-Commerc\obj\Debug\net8.0\E-Commerc.genruntimeconfig.cache
 D:\work\1-material\18- EF\Entity Farmwork project\Proj1\E-Commerc\obj\Debug\net8.0\ref\E-Commerc.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\E-Commerc\obj\Debug\net8.0\E-Commerc.sourcelink.json
