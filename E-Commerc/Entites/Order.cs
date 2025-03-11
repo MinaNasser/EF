@@ -10,15 +10,13 @@ namespace E_Commerc.Entites
     public class Order
     {
         public int Id { get; set; }
-        [Required]
         public int CustomerId { get; set; }
-        [Required]
         public DateTime OrderDate { get; set; } = DateTime.Now;
-        [Required]
+
         public decimal TotalAmount { get; set; }
-        public Customer Customer { get; set; }
-        public ICollection<OrderDetail> OrderDetails { get; set; }
-        public Payment Payment { get; set; }
-        public Shipping Shipping { get; set; }
+        public virtual Customer Customer { get; set; }
+        public virtual ICollection<OrderDetail> OrderDetails { get; set; }
+        public virtual Payment Payment { get; set; }
+        public virtual Shipping Shipping { get; set; }
     }
 }

@@ -150,3 +150,4 @@ D:\work\1-material\18- EF\Entity Farmwork project\Proj1\SchoolSystem\obj\Debug\n
 D:\work\1-material\18- EF\Entity Farmwork project\Proj1\SchoolSystem\obj\Debug\net8.0\SchoolSystem.pdb
 D:\work\1-material\18- EF\Entity Farmwork project\Proj1\SchoolSystem\obj\Debug\net8.0\SchoolSystem.genruntimeconfig.cache
 D:\work\1-material\18- EF\Entity Farmwork project\Proj1\SchoolSystem\obj\Debug\net8.0\ref\SchoolSystem.dll
+D:\work\1-material\18- EF\Entity Farmwork project\Proj1\SchoolSystem\obj\Debug\net8.0\SchoolSystem.sourcelink.json

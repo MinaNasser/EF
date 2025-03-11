@@ -11,13 +11,13 @@ namespace E_Commerc.Entites
     public class Product
     {
         public int Id { get; set; }
-        [Required, MaxLength(100)]
+
         public string Name { get; set; }
-        [Required]
+        //[Required]
         public decimal Price { get; set; }
-        [Required]
+        //[Required]
         public int StockQuantity { get; set; }
-        public ICollection<OrderDetail> OrderDetails { get; set; }
-        public ICollection<StockHistory> StockHistories { get; set; }
+        public virtual ICollection<OrderDetail> OrderDetails { get; set; }
+        public virtual ICollection<StockHistory> StockHistories { get; set; }
     }
 }

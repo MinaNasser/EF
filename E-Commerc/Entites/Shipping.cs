@@ -5,12 +5,12 @@ namespace E_Commerc.Entites
     public class Shipping
     {
         public int Id { get; set; }
-        [Required]
+        //[Required]
         public int OrderId { get; set; }
-        [Required, MaxLength(200)]
+        //[Required, MaxLength(200)]
         public string Address { get; set; }
-        [Required]
+        //[Required]
         public DateTime ShippedDate { get; set; }
-        public Order Order { get; set; }
+        public virtual Order Order { get; set; }
     }
 }

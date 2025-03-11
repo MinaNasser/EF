@@ -3,10 +3,12 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace E_Commerc.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -33,7 +35,7 @@ namespace E_Commerc.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Price = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
                     StockQuantity = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -49,7 +51,7 @@ namespace E_Commerc.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     CustomerId = table.Column<int>(type: "int", nullable: false),
                     OrderDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    TotalAmount = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                    TotalAmount = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -59,7 +61,7 @@ namespace E_Commerc.Migrations
                         column: x => x.CustomerId,
                         principalTable: "Customers",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -92,7 +94,7 @@ namespace E_Commerc.Migrations
                     OrderId = table.Column<int>(type: "int", nullable: false),
                     ProductId = table.Column<int>(type: "int", nullable: false),
                     Quantity = table.Column<int>(type: "int", nullable: false),
-                    UnitPrice = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                    UnitPrice = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -108,7 +110,7 @@ namespace E_Commerc.Migrations
                         column: x => x.ProductId,
                         principalTable: "Products",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -151,6 +153,96 @@ namespace E_Commerc.Migrations
                         principalTable: "Orders",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "Customers",
+                columns: new[] { "Id", "Email", "Name", "PhoneNumber" },
+                values: new object[,]
+                {
+                    { 1, "john@example.com", "John Doe", "123456789" },
+                    { 2, "jane@example.com", "Jane Doe", "987654321" },
+                    { 3, "alice@example.com", "Alice Brown", "555123456" },
+                    { 4, "bob@example.com", "Bob Smith", "666987654" },
+                    { 5, "charlie@example.com", "Charlie Johnson", "777654321" },
+                    { 6, "david@example.com", "David Wilson", "888123987" },
+                    { 7, "eve@example.com", "Eve Taylor", "999654789" },
+                    { 8, "frank@example.com", "Frank White", "111222333" },
+                    { 9, "grace@example.com", "Grace Hall", "444555666" },
+                    { 10, "hank@example.com", "Hank Adams", "777888999" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Products",
+                columns: new[] { "Id", "Name", "Price", "StockQuantity" },
+                values: new object[,]
+                {
+                    { 1, "Laptop", 1000m, 50 },
+                    { 2, "Phone", 500m, 100 },
+                    { 3, "Tablet", 300m, 80 },
+                    { 4, "Monitor", 200m, 70 },
+                    { 5, "Keyboard", 50m, 150 },
+                    { 6, "Mouse", 30m, 200 },
+                    { 7, "Headphones", 80m, 120 },
+                    { 8, "Smart Watch", 150m, 90 },
+                    { 9, "Speaker", 60m, 110 },
+                    { 10, "USB Drive", 20m, 300 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Orders",
+                columns: new[] { "Id", "CustomerId", "OrderDate", "TotalAmount" },
+                values: new object[,]
+                {
+                    { 1, 1, new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 1500m },
+                    { 2, 2, new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 800m },
+                    { 3, 3, new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 600m },
+                    { 4, 4, new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 1200m },
+                    { 5, 5, new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 500m }
+                });
+
+            migrationBuilder.InsertData(
+                table: "StockHistories",
+                columns: new[] { "Id", "ChangeDate", "ProductId", "QuantityChanged" },
+                values: new object[,]
+                {
+                    { 1, new DateTime(2024, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified), 1, -1 },
+                    { 2, new DateTime(2024, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified), 2, -1 },
+                    { 3, new DateTime(2024, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified), 3, -2 },
+                    { 4, new DateTime(2024, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified), 4, -1 },
+                    { 5, new DateTime(2024, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified), 5, -2 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "OrderDetails",
+                columns: new[] { "Id", "OrderId", "ProductId", "Quantity", "UnitPrice" },
+                values: new object[,]
+                {
+                    { 1, 1, 1, 1, 1000m },
+                    { 2, 1, 2, 1, 500m },
+                    { 3, 2, 3, 2, 300m },
+                    { 4, 3, 4, 1, 200m },
+                    { 5, 3, 5, 2, 50m }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Payments",
+                columns: new[] { "Id", "IsPaid", "OrderId", "PaymentMethod" },
+                values: new object[,]
+                {
+                    { 1, true, 1, "Credit Card" },
+                    { 2, true, 2, "PayPal" },
+                    { 3, false, 3, "Bank Transfer" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Shippings",
+                columns: new[] { "Id", "Address", "OrderId", "ShippedDate" },
+                values: new object[,]
+                {
+                    { 1, "123 Main St, NY", 1, new DateTime(2024, 3, 5, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 2, "456 Elm St, LA", 2, new DateTime(2024, 3, 5, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 3, "789 Oak St, TX", 3, new DateTime(2024, 3, 5, 0, 0, 0, 0, DateTimeKind.Unspecified) }
                 });
 
             migrationBuilder.CreateIndex(

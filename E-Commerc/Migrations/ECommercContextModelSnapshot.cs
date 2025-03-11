@@ -17,7 +17,10 @@ namespace E_Commerc.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.2")
+                .HasAnnotation("ProductVersion", "9.0.3")
+                .HasAnnotation("Proxies:ChangeTracking", false)
+                .HasAnnotation("Proxies:CheckEquality", false)
+                .HasAnnotation("Proxies:LazyLoading", true)
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -47,6 +50,78 @@ namespace E_Commerc.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Customers");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Email = "john@example.com",
+                            Name = "John Doe",
+                            PhoneNumber = "123456789"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Email = "jane@example.com",
+                            Name = "Jane Doe",
+                            PhoneNumber = "987654321"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Email = "alice@example.com",
+                            Name = "Alice Brown",
+                            PhoneNumber = "555123456"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Email = "bob@example.com",
+                            Name = "Bob Smith",
+                            PhoneNumber = "666987654"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Email = "charlie@example.com",
+                            Name = "Charlie Johnson",
+                            PhoneNumber = "777654321"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Email = "david@example.com",
+                            Name = "David Wilson",
+                            PhoneNumber = "888123987"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Email = "eve@example.com",
+                            Name = "Eve Taylor",
+                            PhoneNumber = "999654789"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Email = "frank@example.com",
+                            Name = "Frank White",
+                            PhoneNumber = "111222333"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Email = "grace@example.com",
+                            Name = "Grace Hall",
+                            PhoneNumber = "444555666"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Email = "hank@example.com",
+                            Name = "Hank Adams",
+                            PhoneNumber = "777888999"
+                        });
                 });
 
             modelBuilder.Entity("E_Commerc.Entites.Order", b =>
@@ -64,6 +139,7 @@ namespace E_Commerc.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<decimal>("TotalAmount")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
@@ -71,6 +147,43 @@ namespace E_Commerc.Migrations
                     b.HasIndex("CustomerId");
 
                     b.ToTable("Orders");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CustomerId = 1,
+                            OrderDate = new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            TotalAmount = 1500m
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CustomerId = 2,
+                            OrderDate = new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            TotalAmount = 800m
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CustomerId = 3,
+                            OrderDate = new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            TotalAmount = 600m
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CustomerId = 4,
+                            OrderDate = new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            TotalAmount = 1200m
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CustomerId = 5,
+                            OrderDate = new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            TotalAmount = 500m
+                        });
                 });
 
             modelBuilder.Entity("E_Commerc.Entites.OrderDetail", b =>
@@ -91,6 +204,7 @@ namespace E_Commerc.Migrations
                         .HasColumnType("int");
 
                     b.Property<decimal>("UnitPrice")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
@@ -100,6 +214,48 @@ namespace E_Commerc.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("OrderDetails");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            OrderId = 1,
+                            ProductId = 1,
+                            Quantity = 1,
+                            UnitPrice = 1000m
+                        },
+                        new
+                        {
+                            Id = 2,
+                            OrderId = 1,
+                            ProductId = 2,
+                            Quantity = 1,
+                            UnitPrice = 500m
+                        },
+                        new
+                        {
+                            Id = 3,
+                            OrderId = 2,
+                            ProductId = 3,
+                            Quantity = 2,
+                            UnitPrice = 300m
+                        },
+                        new
+                        {
+                            Id = 4,
+                            OrderId = 3,
+                            ProductId = 4,
+                            Quantity = 1,
+                            UnitPrice = 200m
+                        },
+                        new
+                        {
+                            Id = 5,
+                            OrderId = 3,
+                            ProductId = 5,
+                            Quantity = 2,
+                            UnitPrice = 50m
+                        });
                 });
 
             modelBuilder.Entity("E_Commerc.Entites.Payment", b =>
@@ -127,6 +283,29 @@ namespace E_Commerc.Migrations
                         .IsUnique();
 
                     b.ToTable("Payments");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            IsPaid = true,
+                            OrderId = 1,
+                            PaymentMethod = "Credit Card"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            IsPaid = true,
+                            OrderId = 2,
+                            PaymentMethod = "PayPal"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            IsPaid = false,
+                            OrderId = 3,
+                            PaymentMethod = "Bank Transfer"
+                        });
                 });
 
             modelBuilder.Entity("E_Commerc.Entites.Product", b =>
@@ -143,6 +322,7 @@ namespace E_Commerc.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.Property<decimal>("Price")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("StockQuantity")
@@ -151,6 +331,78 @@ namespace E_Commerc.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Laptop",
+                            Price = 1000m,
+                            StockQuantity = 50
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Phone",
+                            Price = 500m,
+                            StockQuantity = 100
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Tablet",
+                            Price = 300m,
+                            StockQuantity = 80
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "Monitor",
+                            Price = 200m,
+                            StockQuantity = 70
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Name = "Keyboard",
+                            Price = 50m,
+                            StockQuantity = 150
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Name = "Mouse",
+                            Price = 30m,
+                            StockQuantity = 200
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Name = "Headphones",
+                            Price = 80m,
+                            StockQuantity = 120
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Name = "Smart Watch",
+                            Price = 150m,
+                            StockQuantity = 90
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Name = "Speaker",
+                            Price = 60m,
+                            StockQuantity = 110
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Name = "USB Drive",
+                            Price = 20m,
+                            StockQuantity = 300
+                        });
                 });
 
             modelBuilder.Entity("E_Commerc.Entites.Shipping", b =>
@@ -178,9 +430,32 @@ namespace E_Commerc.Migrations
                         .IsUnique();
 
                     b.ToTable("Shippings");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Address = "123 Main St, NY",
+                            OrderId = 1,
+                            ShippedDate = new DateTime(2024, 3, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Address = "456 Elm St, LA",
+                            OrderId = 2,
+                            ShippedDate = new DateTime(2024, 3, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Address = "789 Oak St, TX",
+                            OrderId = 3,
+                            ShippedDate = new DateTime(2024, 3, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        });
                 });
 
-            modelBuilder.Entity("E_Commerc.Entites.StockHistory", b =>
+            modelBuilder.Entity("E_Commerc.Migrations.StockHistory", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -202,6 +477,43 @@ namespace E_Commerc.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("StockHistories");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            ChangeDate = new DateTime(2024, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ProductId = 1,
+                            QuantityChanged = -1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            ChangeDate = new DateTime(2024, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ProductId = 2,
+                            QuantityChanged = -1
+                        },
+                        new
+                        {
+                            Id = 3,
+                            ChangeDate = new DateTime(2024, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ProductId = 3,
+                            QuantityChanged = -2
+                        },
+                        new
+                        {
+                            Id = 4,
+                            ChangeDate = new DateTime(2024, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ProductId = 4,
+                            QuantityChanged = -1
+                        },
+                        new
+                        {
+                            Id = 5,
+                            ChangeDate = new DateTime(2024, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ProductId = 5,
+                            QuantityChanged = -2
+                        });
                 });
 
             modelBuilder.Entity("E_Commerc.Entites.Order", b =>
@@ -209,7 +521,7 @@ namespace E_Commerc.Migrations
                     b.HasOne("E_Commerc.Entites.Customer", "Customer")
                         .WithMany("Orders")
                         .HasForeignKey("CustomerId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Customer");
@@ -226,7 +538,7 @@ namespace E_Commerc.Migrations
                     b.HasOne("E_Commerc.Entites.Product", "Product")
                         .WithMany("OrderDetails")
                         .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Order");
@@ -256,7 +568,7 @@ namespace E_Commerc.Migrations
                     b.Navigation("Order");
                 });
 
-            modelBuilder.Entity("E_Commerc.Entites.StockHistory", b =>
+            modelBuilder.Entity("E_Commerc.Migrations.StockHistory", b =>
                 {
                     b.HasOne("E_Commerc.Entites.Product", "Product")
                         .WithMany("StockHistories")
