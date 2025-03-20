@@ -17,3 +17,6 @@ build_property.RootNamespace = NorthwindWinFormsAPP
 build_property.ProjectDir = D:\work\1-material\18- EF\Entity Farmwork project\Proj1\NorthwindWinFormsAPP\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
